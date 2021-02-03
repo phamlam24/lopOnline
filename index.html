@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="buttons">
+            <button class="btn" onclick="DisplayData('Toan')">Toan</button>
+            <button class="btn" onclick="DisplayData('Van')">Van</button>
+            <button class="btn" onclick="DisplayData('Anh')">Anh</button>
+            <button class="btn" onclick="DisplayData('Ly')">Ly</button>
+            <button class="btn" onclick="DisplayData('Hoa')">Hoa</button>
+            <button class="btn" onclick="DisplayData('Sinh')">Sinh</button>
+            <button class="btn" onclick="DisplayData('Su')">Su</button>
+            <button class="btn" onclick="DisplayData('Dia')">Dia</button>
+            <button class="btn" onclick="DisplayData('GDCD')">GDCD</button>
+            <button class="btn" onclick="DisplayData('Cong Nghe')">Cong Nghe</button>
+            <button class="btn" onclick="DisplayData('Tin (thay Tung)')">Tin thay Tung</button>
+            <button class="btn" onclick="DisplayData('Tin (co Hanh)')">Tin co Hanh</button>
+            <button class="btn" onclick="DisplayData('The Duc')">The Duc</button>
+            <button class="btn" onclick="DisplayData('GDQP')">GDQP</button>
+        </div>
+        <div class="classData">
+            <h2 id="classData_mon">Mon: </h2>
+            <h3 id="classData_gv">GV: </h3>
+            <h4 id="classData_sdt">SDT: </h4>
+            <h4 id="classData_id">ZOOM ID:</h4>
+            <h4 id="classData_pass">ZOOM PASS: </h4>
+        </div>
+        <div class="clipboard">
+            <button id="clipboard_id" class="clipboard_btn" onclick="copyToClipboard('id')">Copy Zoom ID</button>
+            <button id="clipboard_pass" class="clipboard_btn" onclick="copyToClipboard('pass')">Copy Zoom Password</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
